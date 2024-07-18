@@ -30,8 +30,7 @@ public class endpoints {
 	
 	public static Faker faker;
 	
-	public static String token = "BQAEymIjvM7zkZf2rw-d5McP7MJXutXf-dcAab_oX4vJy22N-TT_lniFMmw2LjD3Gp7WAhrZ7q9CEYdRvYJCsfnkTSJfhdxDrORivoBu-6BmVjtBdcRYg0b04rl6BUEmEfZPjVPrnDf9sNdQ5U7P3BSr1JAgeK6EZNMD7GNzmPyJH-DHC5oIz-FhGY9oXJL_GcS-aEjdm9wAnpxjroTF0en10yU36cXbIA3qj_enld_3_TiMm2ejTja9Zb2KLAw67TI";
-	
+	public static String token = "token";
 	public static Response getuserdetails() {
 		
 
