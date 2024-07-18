@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T11:45:16 IST" name="Default suite" finished-at="2024-07-18T11:45:21 IST" duration-ms="5357">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T11:45:16 IST" name="Default test" finished-at="2024-07-18T11:45:21 IST" duration-ms="5357">
+      <class name="test.playlist">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:16 IST" name="setup" finished-at="2024-07-18T11:45:17 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userdetails(org.testng.ITestContext)[pri:1, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:17 IST" name="userdetails" finished-at="2024-07-18T11:45:18 IST" duration-ms="1703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userdetails -->
+        <test-method signature="playlistdetails(org.testng.ITestContext)[pri:2, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:18 IST" name="playlistdetails" finished-at="2024-07-18T11:45:19 IST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistdetails -->
+        <test-method signature="createstplaylist(org.testng.ITestContext)[pri:3, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:19 IST" name="createstplaylist" finished-at="2024-07-18T11:45:19 IST" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createstplaylist -->
+        <test-method signature="addtplaylist(org.testng.ITestContext)[pri:4, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:19 IST" name="addtplaylist" finished-at="2024-07-18T11:45:20 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtplaylist -->
+        <test-method signature="updatetplaylist(org.testng.ITestContext)[pri:5, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:20 IST" name="updatetplaylist" finished-at="2024-07-18T11:45:20 IST" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatetplaylist -->
+        <test-method signature="deletetiteamplaylist(org.testng.ITestContext)[pri:6, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:20 IST" name="deletetiteamplaylist" finished-at="2024-07-18T11:45:20 IST" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletetiteamplaylist -->
+        <test-method signature="playlistitemdetails(org.testng.ITestContext)[pri:7, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:20 IST" name="playlistitemdetails" finished-at="2024-07-18T11:45:21 IST" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlistitemdetails -->
+        <test-method signature="deleteplaylist(org.testng.ITestContext)[pri:8, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:21 IST" name="deleteplaylist" finished-at="2024-07-18T11:45:21 IST" duration-ms="382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteplaylist -->
+        <test-method signature="playlitdetails(org.testng.ITestContext)[pri:9, instance:test.playlist@7193666c]" started-at="2024-07-18T11:45:21 IST" name="playlitdetails" finished-at="2024-07-18T11:45:21 IST" duration-ms="369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a3e4aff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playlitdetails -->
+      </class> <!-- test.playlist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
