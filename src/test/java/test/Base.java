@@ -16,7 +16,7 @@ import com.github.javafaker.Faker;
 
 
 import playloads.Tracks;
-import playloads.User;
+import playloads.Items;
 import scala.annotation.newMain;
 
 public class Base {
@@ -25,11 +25,11 @@ public class Base {
 	//pl = playload
 	
 	Faker faker;
-	User createplaylistpl;
-	User addingiteampl;
-	User updatiteamsoderpl;
-	User deletediteampl;
-	User deleteplaylistpl;
+	Items createplaylistpl;
+	Items additemspl;
+	Items updateitemsoderpl;
+	Items deleteitemspl;
+	Items deleteplaylistpl;
 	
 	public Logger logger;
 	
@@ -44,11 +44,11 @@ public class Base {
 		
 		logger = LogManager.getLogger(this.getClass());
 		
-		createplaylistpl = new User();
-		addingiteampl = new User();
-		updatiteamsoderpl = new User();
-		deletediteampl = new User();
-		deleteplaylistpl = new User();
+		createplaylistpl = new Items();
+		additemspl = new Items();
+		updateitemsoderpl = new Items();
+		deleteitemspl = new Items();
+		deleteplaylistpl = new Items();
 		
 		trackname1 =new Tracks();
 		trackname2 = new Tracks();
@@ -59,23 +59,23 @@ public class Base {
 
 		
 		
-		addingiteampl.setUris(useruris);
+		additemspl.setUris(useruris);
 		
 		
 		
-		updatiteamsoderpl.setUris(useruris);
-		updatiteamsoderpl.setRange_strat(0);
-		updatiteamsoderpl.setInsert_before(2);
+		updateitemsoderpl.setUris(useruris);
+		updateitemsoderpl.setRange_strat(0);
+		updateitemsoderpl.setInsert_before(2);
 		
-		updatiteamsoderpl.setRange_strat(0);
-		updatiteamsoderpl.setInsert_before(2);
+		updateitemsoderpl.setRange_strat(0);
+		updateitemsoderpl.setInsert_before(2);
 		
 		trackname1.setUri("spotify:track:6rqhFgbbKwnb9MLmUQDhG6");
 		trackname2.setUri("spotify:track:6bmmHeCvZI92pRiTHxEdTC");
 		List<Tracks> alltracks = new ArrayList<>(); 
 		alltracks.add(trackname1);
 		alltracks.add(trackname2);
-		deletediteampl.setTracks(alltracks);
+		deleteitemspl.setTracks(alltracks);
 		
 		deleteplaylistpl.setTracks(alltracks);
 		
