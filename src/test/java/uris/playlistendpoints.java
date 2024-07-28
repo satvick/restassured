@@ -4,6 +4,7 @@ import static io.restassured.RestAssured.*;
 
 
 
+
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
@@ -30,7 +31,7 @@ public class playlistendpoints {
 	
 	public static Faker faker;
 	
-	public static String token = "BQDD4-NVVA9TgelJIQ8XWAN3hQpoD16AF_tU9Wdys0aHgLByhknDM2Nv022id_7Q8IZ_VFpjPXueCiCtlUxta4b52lsw2GfsKKcDPN4WaOlB37WWnHzdzZq-XWg9H4g2cQBdjZNxgoi_EIyec2QAcFJQ8cDv4dX2BUvgM7fiDyodHu6GjayYlnuQf50N6q4tsvZ-Byg0GLv3zCGn40btjnSUqU5fjvitGijDOhBWkuepbuFn47H-GYmLWojj-SzQz64";
+	public static String token = "";
 	public static Response getuserdetails() {
 		
 

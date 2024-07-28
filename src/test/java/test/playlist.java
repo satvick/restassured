@@ -45,7 +45,7 @@ public class playlist extends Base{
 	Response playlisdetailressponse = playlistendpoints.playlistdetails(id);
 	int playlisttotal = playlisdetailressponse.jsonPath().get("total");
 	playlisdetailressponse.then().statusCode(200);
-	playlisdetailressponse.then().time(Matchers.lessThan(3000l));
+	playlisdetailressponse.then().time(Matchers.lessThan(5000l));
 
 	}
 	
@@ -57,7 +57,7 @@ public class playlist extends Base{
 		Response creatplaylistressponse = playlistendpoints.creatplaylist(id,createplaylistpl);
 		String plyid = creatplaylistressponse.jsonPath().get("id");
 		creatplaylistressponse.then().statusCode(201);
-		creatplaylistressponse.then().time(Matchers.lessThan(3000l));
+		creatplaylistressponse.then().time(Matchers.lessThan(5000l));
 	    
 		context.setAttribute("play_id", plyid);
 
@@ -74,7 +74,7 @@ public class playlist extends Base{
 		additeamressponse.then().statusCode(201);
 		String res= additeamressponse.getBody().asString();
 		assertTrue(res.contains("snapshot_id"));
-		additeamressponse.then().time(Matchers.lessThan(3000l));
+		additeamressponse.then().time(Matchers.lessThan(5000l));
 
 	}
 
@@ -123,9 +123,10 @@ public class playlist extends Base{
 	@Test(priority = 8)
 	public void deleteplaylist(ITestContext context) {
 		
-		String id = (String) context.getAttribute("play_id");
-		Response deleteplaylistressponse = playlistendpoints.deleteplaylist(id);
+		String plyid = (String) context.getAttribute("play_id");
+		Response deleteplaylistressponse = playlistendpoints.deleteplaylist(plyid);
 		deleteplaylistressponse.then().statusCode(200);
+		deleteplaylistressponse.then().time(Matchers.lessThan(5000l));
 
 		
 

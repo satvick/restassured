@@ -2,6 +2,7 @@ package test;
 
 import java.awt.desktop.UserSessionEvent;
 
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,12 +50,14 @@ public class Base {
 		updateitemsoderpl = new Items();
 		deleteitemspl = new Items();
 		deleteplaylistpl = new Items();
+		faker = new Faker();
+	
 		
 		trackname1 =new Tracks();
 		trackname2 = new Tracks();
 		
-		
-		createplaylistpl.setName("Work Songs");
+
+		createplaylistpl.setName(faker.name().firstName()+""+"work playlist");
 		
 
 		
