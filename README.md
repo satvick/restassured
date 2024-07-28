@@ -1,4 +1,4 @@
-Project Overview - https://docs.google.com/document/d/1Y-3AO88J9dwSxfuEIXOtKgAggNPASnV8p1zW-R8ZMrY/edit?usp=sharing
+Project Overview/Plan - https://docs.google.com/document/d/1Y-3AO88J9dwSxfuEIXOtKgAggNPASnV8p1zW-R8ZMrY/edit?usp=sharing
 
 Postman Collection and Documentation https://documenter.getpostman.com/view/37105087/2sA3kUGhji
 
